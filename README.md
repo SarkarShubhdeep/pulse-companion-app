@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pulse - Nurse Productivity & Task Management Prototype
+
+Pulse is a mobile-first productivity and task management application designed specifically for ICU and Trauma nurses. It aims to streamline workflow by organizing tasks, alerts, and team communication in a unified, intuitive interface.
+
+## ⚠️ Prototype Disclaimer
+
+**This application is a conceptual prototype.**
+
+*   **Static Data**: The app currently runs entirely on static sample data. There is no backend integration or real-time data persistence.
+*   **Concept Only**: This serves as a proof-of-concept to illustrate the core ideas and workflow.
+*   **Design Status**: The current User Interface (UI) and User Experience (UX) are **not confirmed**. The visual design is a placeholder to demonstrate functionality and is subject to change in future iterations.
+
+## Key Features (Concept)
+
+*   **Timeline View**: A chronological feed of tasks and alerts.
+*   **Smart Gestures**: Swipe right to complete tasks, swipe left to snooze.
+*   **Delegation System**: Quickly delegate tasks to other staff members.
+*   **Team Chat**: Integrated messaging with staff status indicators.
+*   **Mobile-First Constraint**: Designed strictly for mobile viewports to simulate the intended device experience.
 
 ## Getting Started
 
-First, run the development server:
+This is a [Next.js](https://nextjs.org) project.
+
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Note:** If opening on a desktop browser, you must resize the window to a mobile width to interact with the app, as per the prototype's design constraints.
